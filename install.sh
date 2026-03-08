@@ -7,5 +7,7 @@ apk update
 apk add openssl aws-cli 
 apk add postgresql-client --repository=https://dl-cdn.alpinelinux.org/alpine/v3.22/main
 
+chmod +x /backup.sh
+
 # cleanup
 rm -rf /var/cache/apk/*
